@@ -1,0 +1,342 @@
+html {
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body {
+    background-color: aquamarine;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.main {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: thistle;
+    height: 1000px;
+    width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.navigation {
+    display: inline-block;
+    margin: 1px;
+    margin-left: 70%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 1.8em;
+    position: relative;
+}
+
+.navigation h2 {
+    margin-left: 10px;
+    color: #71C0BB;
+}
+footer {
+    text-align: center;
+    color: #71C0BB;
+    margin-bottom: 5rem;
+}
+.logo {
+    margin-right: 40%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    height: 180px;
+    width: 200px;
+    position: absolute;
+    top: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logo[draggable] {
+    color: white;
+}
+.logo img {
+    height: 100%;
+    width: auto;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    
+}
+
+.image-container {
+      position: relative;
+      width: 70%;
+      max-width: auto;
+      height: 30%;
+      display: block;
+      top: 10%;
+      left: 15%;
+      right: 25%;
+    }
+
+    .image-container .welcome-image {
+      width: auto;
+      height: 100%;
+      display: inline-block;
+      margin-left: 0%;
+      margin-right: 0;
+      border: 10px;
+      border-width: 10px 10px solid white;
+      border-color: bisque;
+    }
+    .image-container .airplane-image {
+        margin-right: 0%;
+        width: auto;
+        height: 100%;
+        position: absolute;
+        left: 60%;
+        right: 0%;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 13%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+      padding: 1rem 1.5rem;
+      padding-top: 0.5rem;
+      border: 10px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 2rem;
+      width: 69%;
+      height: 2%;
+      display: inline-block;
+    }
+
+    body > div.main > div.text-overlay > button {
+        position: relative;
+        top: -200%;
+        left: 20%;
+        height: 2.2rem;
+    }
+    .third-div {
+        position: relative;
+        top: 15%;
+        left: 16%;
+        width: 80%;
+        height: 30%;
+
+    }
+    img.destination-container {
+        height: 10rem;
+        width: 80%;
+        display: block;
+        text-align: center;
+    }
+    .destination-overlay {
+        position: absolute;
+        top: 39%;
+        left: 10rem;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 5rem;
+        color: antiquewhite;
+        width: auto;
+        padding: 1rem 1.5rem;
+
+    }
+    .destination-overlay2 {
+        position: absolute;
+        top: 95%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 5rem;
+        color: antiquewhite;
+        width: auto;
+        padding: 1rem 1.5rem;
+
+    }
+    .destination-overlay3 {
+        position: absolute;
+        top: 27.5rem;
+        left: 59%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 5rem;
+        color: antiquewhite;
+        width: auto;
+        padding: 1rem 1rem;
+
+    }
+
+    .fourth-div {
+        display: inline-block;
+        width: 80%;
+        height: auto;
+        margin-left: 27%;
+    }
+    .fourth-div h2 {
+        width: auto;
+        margin: 0px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+@media (max-width: 900px) {
+.navigation {
+    display: block;
+    margin: 1px;
+    top: 1.6em;
+    position: static;
+    left: 30%;
+    width: auto;
+}
+
+.navigation h2 {
+    margin-left: 1px;
+    color: #71C0BB;
+    font-size:0.4em;
+}
+footer {
+    text-align: center;
+    color: #71C0BB;
+    margin-bottom: 5rem;
+}
+.logo {
+    margin-right: 45%;
+    display: inline-block;
+    height: 120px;
+    width: 200px;
+    position: absolute;
+    top: -35px;
+    margin-left: 40%;
+    margin-right: 30%;
+}
+.logo[draggable] {
+    color: white;
+}
+.logo img {
+    height: 100%;
+    width: auto;
+    margin-bottom: 100px; 
+}
+
+.image-container {
+      position: relative;
+      width: 70%;
+      max-width: auto;
+      height: 30%;
+      display: block;
+      top: 10%;
+      left: 15%;
+    }
+
+    .image-container .welcome-image {
+      width: 68%;
+      height: 50%;
+      display: block;
+      position: relative;
+      left: 18%;
+      margin-right: 20%;
+      margin-bottom: 10px;
+    }
+    .image-container .airplane-image {
+        margin-right: 0%;
+        width: 68%;
+        height: 50%;
+        position: relative;
+        left: 18%;
+        margin-right: 20%;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 8%;
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+      padding: 1rem 1.5rem;
+      border: 10px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 1rem;
+      width: 69%;
+      height: 2%;
+      display: inline-block;
+    }
+
+    body > div.main > div.text-overlay > button {
+        position: relative;
+        top: -300%;
+        left: 20%;
+        height: 2.2rem;
+    }
+    .third-div {
+        position: relative;
+        top: 15%;
+        left: 16%;
+        width: 80%;
+        height: 30%;
+
+    }
+    img.destination-container {
+        height: 10rem;
+        width: 80%;
+        display: block;
+        text-align: center;
+    }
+    .destination-overlay {
+        position: absolute;
+        top: 39%;
+        left: 5rem;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 2rem;
+        color: antiquewhite;
+        width: auto;
+        padding: 1rem 1.5rem;
+
+    }
+    .destination-overlay2 {
+        position: absolute;
+        top: 95%;
+        left: 5.3rem;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 2rem;
+        color: antiquewhite;
+        width: auto;
+        padding: 1rem 1.5rem;
+
+    }
+    .destination-overlay3 {
+        position: absolute;
+        top: 27.5rem;
+        left: 5.7rem;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 1.6rem;
+        color: antiquewhite;
+        width: auto;
+        padding: 1rem 1rem;
+
+    }
+
+    .fourth-div {
+        display: inline-block;
+        width: 80%;
+        height: auto;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .fourth-div h2 {
+        width: auto;
+        margin: 0px;
+        margin-left: 5px;
+        text-align: center;
+        font-size: x-small;
+    }
+}
